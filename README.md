@@ -33,6 +33,16 @@ services:
 
 ```
 
+## Nginx
+Copy the wireguard.conf to the nginx sites-available folder and then link it to the enaled folder, or use the `install.sh` script in the nginx folder.
+
+You need root permissions to copy to the nginx folder!
+
+```bash
+cd nginx
+sudo ./install.sh
+```
+
 ## Client
 
 ### Linux
